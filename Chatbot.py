@@ -12,6 +12,7 @@ while True:
     print("Chatbot : I'm fine. How do you do?")
   elif("fine" in inp or "good" in inp):
     print("Chatbot : That's good to hear!")
+#Ash for time, date and day.
   elif("time" in inp):
     now = datetime.datetime.now()
     current_time = now.strftime("%H:%M:%S")
